@@ -38,7 +38,8 @@ It collects critical system information and generates a **Markdown report**, use
 
 
 ## Usage
-**Run:**
+> **Run:**
+```bash
 sudo sys-snapshot
 **Reports will be stored in:**
 /var/tmp/sys-snapshot/server_health_<timestamp>.md
