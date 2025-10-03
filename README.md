@@ -1,4 +1,4 @@
-📋##sys-snapshot
+📋#sys-snapshot
 
 
 sys-snapshot is a lightweight server health snapshot tool for RHEL 8/9 and CentOS 8/Stream.
