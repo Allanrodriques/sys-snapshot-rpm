@@ -1,26 +1,29 @@
-📋#sys-snapshot
+# 📋 sys-snapshot
 
+`sys-snapshot` is a lightweight **server health snapshot tool** for **RHEL 8/9 and CentOS 8/Stream**.  
+It collects critical system information and generates a **Markdown report**, useful before **migrations, audits, or troubleshooting**.
 
-sys-snapshot is a lightweight server health snapshot tool for RHEL 8/9 and CentOS 8/Stream.
-It collects critical system information and generates a Markdown report, useful before migrations, audits, or troubleshooting.
+---
 
-Features
+## 🚀 Features
 
-System details (hostname, kernel, OS version, uptime)
-SELinux status & GRUB config
-CPU, memory, swap usage
-Disk usage + inode usage + /etc/fstab
-LVM info (VGs, LVs)
-NFS exports (/etc/exports)
-Network interfaces, routing table, active connections, DNS config
-Firewall (firewalld + iptables rules)
-Cron jobs
-Active systemd services
-Sudoers configuration
-Installed packages (count + sample list)
-Timestamped reports stored under /var/tmp/sys-snapshot/
+- 🖥️ **System details** (hostname, kernel, OS version, uptime)  
+- 🔒 **SELinux status & GRUB config**  
+- ⚙️ **CPU, memory, swap usage**  
+- 💾 **Disk usage, inode usage, /etc/fstab**  
+- 📂 **LVM info (VGs, LVs)**  
+- 📂 **NFS exports (/etc/exports)**  
+- 📡 **Network interfaces, routing table, active connections, DNS config**  
+- 🔥 **Firewall (firewalld + iptables)**  
+- ⏰ **Cron jobs**  
+- 🟢 **Active services**  
+- 🔑 **Sudoers configuration**  
+- 📦 **Installed packages (count + sample list)**  
+- 🕒 **Timestamped reports** stored under `/var/tmp/sys-snapshot/`  
 
-Installation
+---
+
+## 📦 Installation
 1. Download the RPM
 wget https://github.com/Allanrodriques/sys-snapshot-rpm/blob/main/sys-snapshot-1.0-1.el8.noarch.rpm
 
